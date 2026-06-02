@@ -124,7 +124,7 @@ nav {
       rgba(0,0,0,0.55),
       rgba(0,0,0,0.55)
     ),
-    url('images/hero-boardgames.jpg');
+    url("images/GloomhavenPlaying.jpg");
 
   background-size: cover;
   background-position: center;
@@ -136,6 +136,7 @@ nav {
   align-items: center;
 
   padding: 90px 8%;
+
 }
 
 .hero-content {
