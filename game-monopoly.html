@@ -1,1 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Monopoly | GameLingo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon"
+  href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+
+  <nav>
+
+    <a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+    <div class="nav-actions">
+
+      <button class="lang-toggle" id="languageButton" onclick="toggleLanguage()">ES</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+    <div class="nav-menu" id="navMenu">
+
+      <a href="games.html" data-en="Games" data-es="Juegos">Games</a>
+      <a href="reviews.html" data-en="Reviews" data-es="Reseñas">Reviews</a>
+      <a href="about.html" data-en="About" data-es="Nosotros">About</a>
+      <a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <span class="badge" data-en="Classic Family Game" data-es="Juego Familiar Clásico">
+      Classic Family Game
+    </span>
+
+    <h1>Monopoly</h1>
+
+    <p data-en="Buy properties, collect rent, trade with other players, and build your way toward victory."
+       data-es="Compra propiedades, cobra renta, negocia con otros jugadores y construye tu camino hacia la victoria.">
+      Buy properties, collect rent, trade with other players, and build your way toward victory.
+    </p>
+
+    <div class="stars">★★★★☆</div>
+
+    <div class="btn-row">
+
+      <a class="btn" href="#" data-en="Contact Seller" data-es="Contactar Vendedor">Contact Seller</a>
+
+      <a class="btn btn-secondary" href="games.html" data-en="Back to Games" data-es="Volver a Juegos">Back to Games</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Game Overview" data-es="Resumen del Juego">Game Overview</h2>
+
+  <p class="section-intro"
+     data-en="Monopoly is one of the most recognizable family board games, built around buying, trading, collecting rent, and managing money."
+     data-es="Monopoly es uno de los juegos familiares más reconocidos, basado en comprar, negociar, cobrar renta y administrar dinero.">
+    Monopoly is one of the most recognizable family board games, built around buying, trading, collecting rent, and managing money.
+  </p>
+
+  <div class="gallery">
+
+    <img src="images/monopoly.jpg" alt="Monopoly box">
+    <img src="images/monopoly-board.jpg" alt="Monopoly board">
+    <img src="images/monopoly-money.jpg" alt="Monopoly money">
+    <img src="images/monopoly-cards.jpg" alt="Monopoly cards">
+    <img src="images/monopoly-gameplay.jpg" alt="Monopoly gameplay">
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="Quick Facts" data-es="Datos Rápidos">Quick Facts</h2>
+
+  <div class="facts">
+
+    <div class="fact">
+      <strong data-en="Age" data-es="Edad">Age</strong>
+      <span>8+</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Players" data-es="Jugadores">Players</strong>
+      <span>2–6</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Play Time" data-es="Duración">Play Time</strong>
+      <span>60+ min</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Category" data-es="Categoría">Category</strong>
+      <span data-en="Family / Classic" data-es="Familiar / Clásico">Family / Classic</span>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="What Makes It Fun?" data-es="¿Qué lo Hace Divertido?">What Makes It Fun?</h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <i class="fa-solid fa-building"></i>
+
+      <h3 data-en="Property Building" data-es="Construcción de Propiedades">Property Building</h3>
+
+      <p data-en="Buy properties, build houses and hotels, and increase rent as your empire grows."
+         data-es="Compra propiedades, construye casas y hoteles, y aumenta la renta conforme crece tu imperio.">
+        Buy properties, build houses and hotels, and increase rent as your empire grows.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-money-bill-wave"></i>
+
+      <h3 data-en="Money Management" data-es="Manejo de Dinero">Money Management</h3>
+
+      <p data-en="Players make spending, saving, trading, and risk decisions throughout the game."
+         data-es="Los jugadores toman decisiones sobre gastar, ahorrar, negociar y asumir riesgos durante la partida.">
+        Players make spending, saving, trading, and risk decisions throughout the game.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-users"></i>
+
+      <h3 data-en="Family Competition" data-es="Competencia Familiar">Family Competition</h3>
+
+      <p data-en="A classic choice for groups who enjoy negotiation, luck, and friendly rivalry."
+         data-es="Una opción clásica para grupos que disfrutan la negociación, la suerte y la competencia amistosa.">
+        A classic choice for groups who enjoy negotiation, luck, and friendly rivalry.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="How to Play" data-es="Cómo se Juega">How to Play</h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+      <h3 data-en="1. Move Around the Board" data-es="1. Avanza por el Tablero">1. Move Around the Board</h3>
+      <p data-en="Roll dice, move your token, and land on properties, cards, taxes, or special spaces."
+         data-es="Lanza los dados, mueve tu ficha y cae en propiedades, cartas, impuestos o espacios especiales.">
+        Roll dice, move your token, and land on properties, cards, taxes, or special spaces.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 data-en="2. Buy and Trade" data-es="2. Compra y Negocia">2. Buy and Trade</h3>
+      <p data-en="Purchase properties, negotiate with other players, and build sets of matching colors."
+         data-es="Compra propiedades, negocia con otros jugadores y completa grupos del mismo color.">
+        Purchase properties, negotiate with other players, and build sets of matching colors.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 data-en="3. Collect Rent" data-es="3. Cobra Renta">3. Collect Rent</h3>
+      <p data-en="Charge rent when players land on your properties and try to remain financially strong."
+         data-es="Cobra renta cuando otros jugadores caen en tus propiedades e intenta mantenerte financieramente fuerte.">
+        Charge rent when players land on your properties and try to remain financially strong.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Player Reviews" data-es="Reseñas de Jugadores">Player Reviews</h2>
+
+  <div class="grid grid-3">
+
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <p data-en="A classic that almost everyone knows. Great for casual family game nights."
+         data-es="Un clásico que casi todos conocen. Ideal para noches familiares casuales.">
+        A classic that almost everyone knows. Great for casual family game nights.
+      </p>
+      <strong>— Andrea P.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <p data-en="Simple to understand, competitive, and always creates funny table moments."
+         data-es="Fácil de entender, competitivo y siempre crea momentos divertidos en la mesa.">
+        Simple to understand, competitive, and always creates funny table moments.
+      </p>
+      <strong>— Mateo G.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p data-en="Still one of the easiest games to introduce to people who do not usually play board games."
+         data-es="Sigue siendo uno de los juegos más fáciles para presentar a personas que no suelen jugar juegos de mesa.">
+        Still one of the easiest games to introduce to people who do not usually play board games.
+      </p>
+      <strong>— Sofia L.</strong>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <h2 data-en="Interested in this game?" data-es="¿Te interesa este juego?">Interested in this game?</h2>
+
+  <p data-en="A product page like this helps shoppers understand the game before deciding to buy or ask for more information."
+     data-es="Una página de producto como esta ayuda a los compradores a entender el juego antes de comprar o pedir más información.">
+    A product page like this helps shoppers understand the game before deciding to buy or ask for more information.
+  </p>
+
+  <a class="btn btn-secondary" href="contact.html" data-en="Ask About This Game" data-es="Consultar Sobre Este Juego">
+    Ask About This Game
+  </a>
+
+</section>
+
+<footer>
+
+  <p>GameLingo</p>
+
+  <p data-en="Detailed game pages built for discovery, trust, and easier buying decisions."
+     data-es="Páginas detalladas diseñadas para descubrir, generar confianza y facilitar decisiones de compra.">
+    Detailed game pages built for discovery, trust, and easier buying decisions.
+  </p>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
