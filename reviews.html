@@ -1,1 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reviews | GameLingo</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="icon"
+href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+<div class="nav-actions">
+
+<button class="lang-toggle"
+id="languageButton"
+onclick="toggleLanguage()">
+ES
+</button>
+
+<button class="menu-toggle"
+onclick="toggleMenu()">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+</div>
+
+<div class="nav-menu" id="navMenu">
+
+<a href="games.html"
+data-en="Games"
+data-es="Juegos">Games</a>
+
+<a href="reviews.html"
+data-en="Reviews"
+data-es="Reseñas">Reviews</a>
+
+<a href="about.html"
+data-en="About"
+data-es="Nosotros">About</a>
+
+<a href="contact.html"
+data-en="Contact"
+data-es="Contacto">Contact</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1
+data-en="What Players Are Saying"
+data-es="Lo Que Dicen los Jugadores">
+
+What Players Are Saying
+
+</h1>
+
+<p
+data-en="Reviews help players discover great games and make more confident purchasing decisions."
+data-es="Las reseñas ayudan a los jugadores a descubrir grandes juegos y tomar mejores decisiones de compra.">
+
+Reviews help players discover great games and make more confident purchasing decisions.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="section white">
+
+<h2
+data-en="Community Rating Overview"
+data-es="Resumen de Calificaciones">
+
+Community Rating Overview
+
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Catan</h3>
+<div class="stars">★★★★★</div>
+<p>4.8 / 5</p>
+<p>1,250 Ratings</p>
+</div>
+
+<div class="card">
+<h3>Scrabble</h3>
+<div class="stars">★★★★★</div>
+<p>4.7 / 5</p>
+<p>980 Ratings</p>
+</div>
+
+<div class="card">
+<h3>Monopoly</h3>
+<div class="stars">★★★★☆</div>
+<p>4.2 / 5</p>
+<p>2,800 Ratings</p>
+</div>
+
+<div class="card">
+<h3>Gloomhaven</h3>
+<div class="stars">★★★★★</div>
+<p>4.9 / 5</p>
+<p>1,100 Ratings</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2
+data-en="Rating Breakdown"
+data-es="Distribución de Calificaciones">
+
+Rating Breakdown
+
+</h2>
+
+<div class="grid grid-2">
+
+<div class="card">
+
+<h3>Catan</h3>
+
+<p>★★★★★ 72%</p>
+<p>★★★★☆ 21%</p>
+<p>★★★☆☆ 5%</p>
+<p>★★☆☆☆ 1%</p>
+<p>★☆☆☆☆ 1%</p>
+
+</div>
+
+<div class="card">
+
+<h3>Gloomhaven</h3>
+
+<p>★★★★★ 81%</p>
+<p>★★★★☆ 15%</p>
+<p>★★★☆☆ 3%</p>
+<p>★★☆☆☆ 1%</p>
+<p>★☆☆☆☆ 0%</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section white">
+
+<h2
+data-en="Featured Reviews"
+data-es="Reseñas Destacadas">
+
+Featured Reviews
+
+</h2>
+
+<div class="grid grid-3">
+
+<div class="review">
+
+<div class="stars">★★★★★</div>
+
+<p
+data-en="Catan is one of the easiest strategy games to teach while still providing meaningful decisions."
+data-es="Catan es uno de los juegos de estrategia más fáciles de enseñar mientras sigue ofreciendo decisiones interesantes.">
+
+Catan is one of the easiest strategy games to teach while still providing meaningful decisions.
+
+</p>
+
+<strong>— Example Community Review</strong>
+
+</div>
+
+<div class="review">
+
+<div class="stars">★★★★★</div>
+
+<p
+data-en="Scrabble makes learning vocabulary feel natural and competitive."
+data-es="Scrabble hace que aprender vocabulario se sienta natural y competitivo.">
+
+Scrabble makes learning vocabulary feel natural and competitive.
+
+</p>
+
+<strong>— Example Community Review</strong>
+
+</div>
+
+<div class="review">
+
+<div class="stars">★★★★★</div>
+
+<p
+data-en="Gloomhaven delivers one of the most satisfying cooperative campaign experiences available."
+data-es="Gloomhaven ofrece una de las experiencias cooperativas de campaña más satisfactorias disponibles.">
+
+Gloomhaven delivers one of the most satisfying cooperative campaign experiences available.
+
+</p>
+
+<strong>— Example Community Review</strong>
+
+</div>
+
+<div class="review">
+
+<div class="stars">★★★★☆</div>
+
+<p
+data-en="Monopoly remains one of the most accessible games for introducing people to tabletop gaming."
+data-es="Monopoly sigue siendo uno de los juegos más accesibles para introducir personas a los juegos de mesa.">
+
+Monopoly remains one of the most accessible games for introducing people to tabletop gaming.
+
+</p>
+
+<strong>— Example Community Review</strong>
+
+</div>
+
+<div class="review">
+
+<div class="stars">★★★★★</div>
+
+<p
+data-en="The replayability in Catan keeps our family coming back to it year after year."
+data-es="La rejugabilidad de Catan hace que nuestra familia vuelva a jugarlo año tras año.">
+
+The replayability in Catan keeps our family coming back to it year after year.
+
+</p>
+
+<strong>— Example Community Review</strong>
+
+</div>
+
+<div class="review">
+
+<div class="stars">★★★★★</div>
+
+<p
+data-en="Educational games like Scrabble prove that learning and fun can exist together."
+data-es="Los juegos educativos como Scrabble demuestran que aprender y divertirse pueden ir de la mano.">
+
+Educational games like Scrabble prove that learning and fun can exist together.
+
+</p>
+
+<strong>— Example Community Review</strong>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta-section">
+
+<h2
+data-en="Want Reviews Like These For Your Products?"
+data-es="¿Quieres Reseñas Como Estas Para Tus Productos?">
+
+Want Reviews Like These For Your Products?
+
+</h2>
+
+<p
+data-en="GameLingo demonstrates how stores, publishers, and creators can showcase ratings, reviews, and trust signals."
+data-es="GameLingo demuestra cómo tiendas, editoriales y creadores pueden mostrar calificaciones, reseñas y señales de confianza.">
+
+GameLingo demonstrates how stores, publishers, and creators can showcase ratings, reviews, and trust signals.
+
+</p>
+
+<a class="btn btn-secondary"
+href="contact.html"
+data-en="Contact Us"
+data-es="Contáctanos">
+
+Contact Us
+
+</a>
+
+</section>
+
+<footer>
+
+<p>GameLingo</p>
+
+<p
+data-en="Helping players discover great games."
+data-es="Ayudando a los jugadores a descubrir grandes juegos.">
+
+Helping players discover great games.
+
+</p>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
