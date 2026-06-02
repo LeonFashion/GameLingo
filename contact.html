@@ -1,1 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About | GameLingo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon"
+  href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+
+  <nav>
+
+    <a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+    <div class="nav-actions">
+
+      <button class="lang-toggle" id="languageButton" onclick="toggleLanguage()">ES</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+    <div class="nav-menu" id="navMenu">
+
+      <a href="games.html" data-en="Games" data-es="Juegos">Games</a>
+      <a href="reviews.html" data-en="Reviews" data-es="Reseñas">Reviews</a>
+      <a href="about.html" data-en="About" data-es="Nosotros">About</a>
+      <a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <h1 data-en="A better way to showcase games online."
+        data-es="Una mejor forma de mostrar juegos en internet.">
+      A better way to showcase games online.
+    </h1>
+
+    <p data-en="GameLingo is a demo catalog built to show how board games, card games, and learning games can be presented with clearer product pages, reviews, images, and bilingual content."
+       data-es="GameLingo es un catálogo demo creado para mostrar cómo los juegos de mesa, cartas y juegos educativos pueden presentarse con páginas más claras, reseñas, imágenes y contenido bilingüe.">
+      GameLingo is a demo catalog built to show how board games, card games, and learning games can be presented with clearer product pages, reviews, images, and bilingual content.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Why GameLingo Exists"
+      data-es="Por Qué Existe GameLingo">
+    Why GameLingo Exists
+  </h2>
+
+  <p class="section-intro"
+     data-en="Many small creators and stores rely only on social media posts, screenshots, or simple pages. GameLingo demonstrates how a more organized website can help customers understand a game faster and make better buying decisions."
+     data-es="Muchos creadores y tiendas pequeñas dependen solo de redes sociales, capturas o páginas simples. GameLingo demuestra cómo un sitio más organizado puede ayudar a los clientes a entender un juego más rápido y tomar mejores decisiones de compra.">
+    Many small creators and stores rely only on social media posts, screenshots, or simple pages. GameLingo demonstrates how a more organized website can help customers understand a game faster and make better buying decisions.
+  </p>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <i class="fa-solid fa-store"></i>
+
+      <h3 data-en="For Stores"
+          data-es="Para Tiendas">
+        For Stores
+      </h3>
+
+      <p data-en="Show multiple games in a clean catalog with product pages, ratings, categories, and easy contact options."
+         data-es="Muestra varios juegos en un catálogo limpio con páginas de producto, calificaciones, categorías y opciones fáciles de contacto.">
+        Show multiple games in a clean catalog with product pages, ratings, categories, and easy contact options.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-lightbulb"></i>
+
+      <h3 data-en="For Creators"
+          data-es="Para Creadores">
+        For Creators
+      </h3>
+
+      <p data-en="Give new games a professional home where players can see what the game includes, how it works, and why it matters."
+         data-es="Dale a nuevos juegos un espacio profesional donde los jugadores puedan ver qué incluye, cómo funciona y por qué vale la pena.">
+        Give new games a professional home where players can see what the game includes, how it works, and why it matters.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-users"></i>
+
+      <h3 data-en="For Players"
+          data-es="Para Jugadores">
+        For Players
+      </h3>
+
+      <p data-en="Make it easier to compare games by age, players, time, category, rating, and learning value."
+         data-es="Facilita comparar juegos por edad, jugadores, duración, categoría, calificación y valor educativo.">
+        Make it easier to compare games by age, players, time, category, rating, and learning value.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="What Makes This Site Different"
+      data-es="Qué Hace Diferente Este Sitio">
+    What Makes This Site Different
+  </h2>
+
+  <div class="grid">
+
+    <div class="card">
+
+      <i class="fa-solid fa-language"></i>
+
+      <h3 data-en="Bilingual Experience"
+          data-es="Experiencia Bilingüe">
+        Bilingual Experience
+      </h3>
+
+      <p data-en="Visitors can switch between English and Spanish with one simple toggle."
+         data-es="Los visitantes pueden cambiar entre inglés y español con un botón sencillo.">
+        Visitors can switch between English and Spanish with one simple toggle.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-images"></i>
+
+      <h3 data-en="Image Galleries"
+          data-es="Galerías de Imágenes">
+        Image Galleries
+      </h3>
+
+      <p data-en="Each game page can show the box, board, cards, components, and gameplay examples."
+         data-es="Cada página puede mostrar la caja, tablero, cartas, componentes y ejemplos de juego.">
+        Each game page can show the box, board, cards, components, and gameplay examples.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-star-half-stroke"></i>
+
+      <h3 data-en="Ratings & Reviews"
+          data-es="Calificaciones y Reseñas">
+        Ratings & Reviews
+      </h3>
+
+      <p data-en="Reviews help create trust and show how different people experience each game."
+         data-es="Las reseñas ayudan a generar confianza y mostrar cómo diferentes personas viven cada juego.">
+        Reviews help create trust and show how different people experience each game.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-circle-info"></i>
+
+      <h3 data-en="Clear Product Details"
+          data-es="Detalles Claros">
+        Clear Product Details
+      </h3>
+
+      <p data-en="Players can quickly see age range, number of players, duration, category, and game style."
+         data-es="Los jugadores pueden ver rápidamente edad, número de jugadores, duración, categoría y estilo de juego.">
+        Players can quickly see age range, number of players, duration, category, and game style.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="The Bigger Idea"
+      data-es="La Idea Principal">
+    The Bigger Idea
+  </h2>
+
+  <p class="section-intro"
+     data-en="This project is designed as a scalable model. A store could list dozens of games. A creator could showcase one new product. A publisher could build trust through detailed pages, reviews, and clear buying paths."
+     data-es="Este proyecto está diseñado como un modelo escalable. Una tienda podría listar docenas de juegos. Un creador podría mostrar un producto nuevo. Una editorial podría generar confianza con páginas detalladas, reseñas y caminos claros de compra.">
+    This project is designed as a scalable model. A store could list dozens of games. A creator could showcase one new product. A publisher could build trust through detailed pages, reviews, and clear buying paths.
+  </p>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <h3 data-en="Discover"
+          data-es="Descubrir">
+        Discover
+      </h3>
+
+      <p data-en="Help users find games that match their interests, age group, and play style."
+         data-es="Ayuda a los usuarios a encontrar juegos que coincidan con sus intereses, edad y estilo de juego.">
+        Help users find games that match their interests, age group, and play style.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h3 data-en="Understand"
+          data-es="Entender">
+        Understand
+      </h3>
+
+      <p data-en="Explain what each game is, what it includes, how it works, and who it is for."
+         data-es="Explica qué es cada juego, qué incluye, cómo funciona y para quién está diseñado.">
+        Explain what each game is, what it includes, how it works, and who it is for.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h3 data-en="Contact or Buy"
+          data-es="Contactar o Comprar">
+        Contact or Buy
+      </h3>
+
+      <p data-en="Guide users toward WhatsApp, purchase links, store pages, or creator contact options."
+         data-es="Guía a los usuarios hacia WhatsApp, enlaces de compra, tiendas o contacto con creadores.">
+        Guide users toward WhatsApp, purchase links, store pages, or creator contact options.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <h2 data-en="A demo today. A marketplace tomorrow."
+      data-es="Un demo hoy. Un marketplace mañana.">
+    A demo today. A marketplace tomorrow.
+  </h2>
+
+  <p data-en="GameLingo shows how a simple website can become a stronger product showcase for games, creators, and stores."
+     data-es="GameLingo muestra cómo un sitio sencillo puede convertirse en una vitrina más fuerte para juegos, creadores y tiendas.">
+    GameLingo shows how a simple website can become a stronger product showcase for games, creators, and stores.
+  </p>
+
+  <a class="btn btn-secondary"
+     href="games.html"
+     data-en="Explore Games"
+     data-es="Explorar Juegos">
+    Explore Games
+  </a>
+
+</section>
+
+<footer>
+
+  <p>GameLingo</p>
+
+  <p data-en="A scalable demo for board game catalogs and product pages."
+     data-es="Un demo escalable para catálogos de juegos de mesa y páginas de producto.">
+    A scalable demo for board game catalogs and product pages.
+  </p>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
