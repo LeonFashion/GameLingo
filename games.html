@@ -1,1 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Games | GameLingo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon"
+  href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+
+  <nav>
+
+    <a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+    <div class="nav-actions">
+
+      <button class="lang-toggle" id="languageButton" onclick="toggleLanguage()">ES</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+    <div class="nav-menu" id="navMenu">
+
+      <a href="games.html"
+         data-en="Games"
+         data-es="Juegos">Games</a>
+
+      <a href="reviews.html"
+         data-en="Reviews"
+         data-es="Reseñas">Reviews</a>
+
+      <a href="about.html"
+         data-en="About"
+         data-es="Nosotros">About</a>
+
+      <a href="contact.html"
+         data-en="Contact"
+         data-es="Contacto">Contact</a>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <h1 data-en="Browse the Game Catalog"
+        data-es="Explora el Catálogo de Juegos">
+      Browse the Game Catalog
+    </h1>
+
+    <p data-en="Compare games by age, players, duration, category, rating, and play style before choosing what to explore next."
+       data-es="Compara juegos por edad, jugadores, duración, categoría, calificación y estilo antes de decidir cuál explorar.">
+      Compare games by age, players, duration, category, rating, and play style before choosing what to explore next.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="All Games"
+      data-es="Todos los Juegos">
+    All Games
+  </h2>
+
+  <p class="section-intro"
+     data-en="Each card gives a quick snapshot of the game, while the full product page shows images, details, reviews, and buying/contact options."
+     data-es="Cada tarjeta muestra un resumen rápido del juego, mientras que la página completa incluye imágenes, detalles, reseñas y opciones de compra o contacto.">
+    Each card gives a quick snapshot of the game, while the full product page shows images, details, reviews, and buying/contact options.
+  </p>
+
+  <div class="btn-row" style="justify-content: center; margin-bottom: 35px;">
+
+    <a class="btn btn-secondary" href="#"
+       data-en="All"
+       data-es="Todos">All</a>
+
+    <a class="btn btn-secondary" href="#"
+       data-en="Family"
+       data-es="Familiares">Family</a>
+
+    <a class="btn btn-secondary" href="#"
+       data-en="Strategy"
+       data-es="Estrategia">Strategy</a>
+
+    <a class="btn btn-secondary" href="#"
+       data-en="Learning"
+       data-es="Educativos">Learning</a>
+
+  </div>
+
+  <div class="grid">
+
+    <a href="game-catan.html" class="card game-card">
+
+      <img src="images/catan.jpg" alt="Catan board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Strategy"
+              data-es="Estrategia">Strategy</span>
+
+        <h3>Catan</h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p data-en="Trade, build, and settle your way to victory in a modern strategy classic."
+           data-es="Intercambia, construye y coloniza tu camino hacia la victoria en un clásico moderno de estrategia.">
+          Trade, build, and settle your way to victory in a modern strategy classic.
+        </p>
+
+        <div class="facts">
+          <div class="fact">
+            <strong data-en="Age" data-es="Edad">Age</strong>
+            <span>10+</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Players" data-es="Jugadores">Players</strong>
+            <span>3–4</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Time" data-es="Tiempo">Time</strong>
+            <span>60–90</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Type" data-es="Tipo">Type</strong>
+            <span data-en="Strategy" data-es="Estrategia">Strategy</span>
+          </div>
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="game-gloomhaven.html" class="card game-card">
+
+      <img src="images/gloomhaven.jpg" alt="Gloomhaven Jaws of the Lion board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Adventure"
+              data-es="Aventura">Adventure</span>
+
+        <h3>Gloomhaven: Jaws of the Lion</h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p data-en="A cooperative fantasy campaign game with tactical combat and evolving characters."
+           data-es="Un juego cooperativo de campaña fantástica con combate táctico y personajes en evolución.">
+          A cooperative fantasy campaign game with tactical combat and evolving characters.
+        </p>
+
+        <div class="facts">
+          <div class="fact">
+            <strong data-en="Age" data-es="Edad">Age</strong>
+            <span>14+</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Players" data-es="Jugadores">Players</strong>
+            <span>1–4</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Time" data-es="Tiempo">Time</strong>
+            <span>30–120</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Type" data-es="Tipo">Type</strong>
+            <span data-en="Campaign" data-es="Campaña">Campaign</span>
+          </div>
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="game-monopoly.html" class="card game-card">
+
+      <img src="images/monopoly.jpg" alt="Monopoly board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Classic"
+              data-es="Clásico">Classic</span>
+
+        <h3>Monopoly</h3>
+
+        <div class="stars">★★★★☆</div>
+
+        <p data-en="Buy properties, collect rent, trade, and try to become the last player standing."
+           data-es="Compra propiedades, cobra renta, negocia e intenta ser el último jugador en pie.">
+          Buy properties, collect rent, trade, and try to become the last player standing.
+        </p>
+
+        <div class="facts">
+          <div class="fact">
+            <strong data-en="Age" data-es="Edad">Age</strong>
+            <span>8+</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Players" data-es="Jugadores">Players</strong>
+            <span>2–6</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Time" data-es="Tiempo">Time</strong>
+            <span>60+</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Type" data-es="Tipo">Type</strong>
+            <span data-en="Family" data-es="Familiar">Family</span>
+          </div>
+        </div>
+
+      </div>
+
+    </a>
+
+    <a href="game-scrabble.html" class="card game-card">
+
+      <img src="images/scrabble.jpg" alt="Scrabble board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Word Game"
+              data-es="Palabras">Word Game</span>
+
+        <h3>Scrabble</h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p data-en="Build words, score points, and strengthen vocabulary with every turn."
+           data-es="Forma palabras, suma puntos y fortalece el vocabulario en cada turno.">
+          Build words, score points, and strengthen vocabulary with every turn.
+        </p>
+
+        <div class="facts">
+          <div class="fact">
+            <strong data-en="Age" data-es="Edad">Age</strong>
+            <span>10+</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Players" data-es="Jugadores">Players</strong>
+            <span>2–4</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Time" data-es="Tiempo">Time</strong>
+            <span>45–60</span>
+          </div>
+          <div class="fact">
+            <strong data-en="Type" data-es="Tipo">Type</strong>
+            <span data-en="Learning" data-es="Educativo">Learning</span>
+          </div>
+        </div>
+
+      </div>
+
+    </a>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <h2 data-en="Want your game listed like this?"
+      data-es="¿Quieres que tu juego aparezca así?">
+    Want your game listed like this?
+  </h2>
+
+  <p data-en="This demo shows how stores, creators, and publishers can present games with clear information, images, ratings, and product pages."
+     data-es="Esta demostración muestra cómo tiendas, creadores y editoriales pueden presentar juegos con información clara, imágenes, calificaciones y páginas de producto.">
+    This demo shows how stores, creators, and publishers can present games with clear information, images, ratings, and product pages.
+  </p>
+
+  <a class="btn btn-secondary"
+     href="contact.html"
+     data-en="Contact Us"
+     data-es="Contáctanos">Contact Us</a>
+
+</section>
+
+<footer>
+
+  <p>GameLingo</p>
+
+  <p data-en="A colorful catalog for board games, learning games, and tabletop discovery."
+     data-es="Un catálogo colorido para juegos de mesa, juegos educativos y descubrimiento tabletop.">
+    A colorful catalog for board games, learning games, and tabletop discovery.
+  </p>
+
+  <div class="footer-socials">
+
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+  </div>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
