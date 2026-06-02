@@ -1,1 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Scrabble | GameLingo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon"
+  href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+  <nav>
+
+    <a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" id="languageButton" onclick="toggleLanguage()">ES</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="nav-menu" id="navMenu">
+      <a href="games.html" data-en="Games" data-es="Juegos">Games</a>
+      <a href="reviews.html" data-en="Reviews" data-es="Reseñas">Reviews</a>
+      <a href="about.html" data-en="About" data-es="Nosotros">About</a>
+      <a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a>
+    </div>
+
+  </nav>
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <span class="badge" data-en="Educational Word Game" data-es="Juego Educativo de Palabras">
+      Educational Word Game
+    </span>
+
+    <h1>Scrabble</h1>
+
+    <p data-en="Build words, score points, and strengthen vocabulary, spelling, and strategic thinking with every turn."
+       data-es="Forma palabras, suma puntos y fortalece vocabulario, ortografía y pensamiento estratégico en cada turno.">
+      Build words, score points, and strengthen vocabulary, spelling, and strategic thinking with every turn.
+    </p>
+
+    <div class="stars">★★★★★</div>
+
+    <div class="btn-row">
+      <a class="btn" href="#" data-en="Contact Seller" data-es="Contactar Vendedor">Contact Seller</a>
+
+      <a class="btn btn-secondary" href="games.html" data-en="Back to Games" data-es="Volver a Juegos">Back to Games</a>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Game Overview" data-es="Resumen del Juego">Game Overview</h2>
+
+  <p class="section-intro"
+     data-en="Scrabble is a classic word-building game where players use letter tiles to create words, earn points, and expand their vocabulary."
+     data-es="Scrabble es un clásico juego de palabras donde los jugadores usan fichas de letras para formar palabras, ganar puntos y ampliar su vocabulario.">
+    Scrabble is a classic word-building game where players use letter tiles to create words, earn points, and expand their vocabulary.
+  </p>
+
+  <div class="gallery">
+
+    <img src="images/scrabble.jpg" alt="Scrabble box">
+    <img src="images/scrabble-board.jpg" alt="Scrabble board">
+    <img src="images/scrabble-tiles.jpg" alt="Scrabble tiles">
+    <img src="images/scrabble-rack.jpg" alt="Scrabble tile rack">
+    <img src="images/scrabble-gameplay.jpg" alt="Scrabble gameplay">
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="Quick Facts" data-es="Datos Rápidos">Quick Facts</h2>
+
+  <div class="facts">
+
+    <div class="fact">
+      <strong data-en="Age" data-es="Edad">Age</strong>
+      <span>10+</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Players" data-es="Jugadores">Players</strong>
+      <span>2–4</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Play Time" data-es="Duración">Play Time</strong>
+      <span>45–60 min</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Category" data-es="Categoría">Category</strong>
+      <span data-en="Word / Learning" data-es="Palabras / Educativo">Word / Learning</span>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="What Players Learn" data-es="Qué Aprenden los Jugadores">
+    What Players Learn
+  </h2>
+
+  <p class="section-intro"
+     data-en="Educational games can do more than entertain. A strong product page should clearly show what skills the game helps develop."
+     data-es="Los juegos educativos pueden hacer más que entretener. Una buena página de producto debe mostrar claramente qué habilidades ayuda a desarrollar el juego.">
+    Educational games can do more than entertain. A strong product page should clearly show what skills the game helps develop.
+  </p>
+
+  <div class="grid">
+
+    <div class="card">
+
+      <i class="fa-solid fa-book-open"></i>
+
+      <h3 data-en="Vocabulary" data-es="Vocabulario">Vocabulary</h3>
+
+      <p data-en="Players discover, remember, and use words in a more active way."
+         data-es="Los jugadores descubren, recuerdan y usan palabras de una forma más activa.">
+        Players discover, remember, and use words in a more active way.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-spell-check"></i>
+
+      <h3 data-en="Spelling" data-es="Ortografía">Spelling</h3>
+
+      <p data-en="Letter placement encourages players to think carefully about spelling and word structure."
+         data-es="La colocación de letras motiva a pensar cuidadosamente en la ortografía y estructura de las palabras.">
+        Letter placement encourages players to think carefully about spelling and word structure.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-brain"></i>
+
+      <h3 data-en="Critical Thinking" data-es="Pensamiento Crítico">Critical Thinking</h3>
+
+      <p data-en="Players compare options, calculate points, and decide where each word creates the best result."
+         data-es="Los jugadores comparan opciones, calculan puntos y deciden dónde cada palabra genera el mejor resultado.">
+        Players compare options, calculate points, and decide where each word creates the best result.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-comments"></i>
+
+      <h3 data-en="Language Confidence" data-es="Confianza Lingüística">Language Confidence</h3>
+
+      <p data-en="Word games can help players feel more comfortable using language in a playful setting."
+         data-es="Los juegos de palabras pueden ayudar a los jugadores a sentirse más cómodos usando el idioma en un ambiente divertido.">
+        Word games can help players feel more comfortable using language in a playful setting.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="What Makes It Fun?" data-es="¿Qué lo Hace Divertido?">What Makes It Fun?</h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <i class="fa-solid fa-font"></i>
+
+      <h3 data-en="Word Building" data-es="Formar Palabras">Word Building</h3>
+
+      <p data-en="Each turn challenges players to create the best word from the letters they have."
+         data-es="Cada turno reta a los jugadores a formar la mejor palabra con las letras disponibles.">
+        Each turn challenges players to create the best word from the letters they have.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-calculator"></i>
+
+      <h3 data-en="Point Strategy" data-es="Estrategia de Puntos">Point Strategy</h3>
+
+      <p data-en="Bonus squares and letter values make every placement important."
+         data-es="Las casillas de bonificación y valores de letras hacen que cada colocación sea importante.">
+        Bonus squares and letter values make every placement important.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-trophy"></i>
+
+      <h3 data-en="Replay Value" data-es="Valor de Repetición">Replay Value</h3>
+
+      <p data-en="Different letters and board positions make every game feel different."
+         data-es="Diferentes letras y posiciones en el tablero hacen que cada partida sea distinta.">
+        Different letters and board positions make every game feel different.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="How to Play" data-es="Cómo se Juega">How to Play</h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+      <h3 data-en="1. Draw Letters" data-es="1. Toma Letras">1. Draw Letters</h3>
+      <p data-en="Each player receives letter tiles and uses them to form words on the board."
+         data-es="Cada jugador recibe fichas de letras y las usa para formar palabras en el tablero.">
+        Each player receives letter tiles and uses them to form words on the board.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 data-en="2. Build Words" data-es="2. Forma Palabras">2. Build Words</h3>
+      <p data-en="Place letters on the board to create valid words and connect them to existing ones."
+         data-es="Coloca letras en el tablero para crear palabras válidas y conectarlas con las existentes.">
+        Place letters on the board to create valid words and connect them to existing ones.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 data-en="3. Score Points" data-es="3. Suma Puntos">3. Score Points</h3>
+      <p data-en="Earn points based on letter values, word placement, and bonus spaces."
+         data-es="Gana puntos según el valor de las letras, la posición de la palabra y las casillas especiales.">
+        Earn points based on letter values, word placement, and bonus spaces.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="Player Reviews" data-es="Reseñas de Jugadores">Player Reviews</h2>
+
+  <div class="grid grid-3">
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p data-en="A perfect game for people who enjoy words, vocabulary, and friendly competition."
+         data-es="Un juego perfecto para quienes disfrutan las palabras, el vocabulario y la competencia amistosa.">
+        A perfect game for people who enjoy words, vocabulary, and friendly competition.
+      </p>
+      <strong>— Laura M.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p data-en="Great for language practice. It makes players think about spelling and word choices."
+         data-es="Excelente para practicar idioma. Hace que los jugadores piensen en ortografía y elección de palabras.">
+        Great for language practice. It makes players think about spelling and word choices.
+      </p>
+      <strong>— Andres C.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <p data-en="Classic, educational, and still fun after many plays."
+         data-es="Clásico, educativo y todavía divertido después de muchas partidas.">
+        Classic, educational, and still fun after many plays.
+      </p>
+      <strong>— Megan R.</strong>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <h2 data-en="Interested in educational games?" data-es="¿Te interesan los juegos educativos?">
+    Interested in educational games?
+  </h2>
+
+  <p data-en="This product page format can help creators explain not only what a game is, but also what players learn from it."
+     data-es="Este formato de página puede ayudar a creadores a explicar no solo qué es un juego, sino también qué aprenden los jugadores.">
+    This product page format can help creators explain not only what a game is, but also what players learn from it.
+  </p>
+
+  <a class="btn btn-secondary"
+     href="contact.html"
+     data-en="Ask About This Game"
+     data-es="Consultar Sobre Este Juego">Ask About This Game</a>
+
+</section>
+
+<footer>
+
+  <p>GameLingo</p>
+
+  <p data-en="Educational game pages designed to show value, learning outcomes, and player feedback."
+     data-es="Páginas para juegos educativos diseñadas para mostrar valor, aprendizaje y opiniones de jugadores.">
+    Educational game pages designed to show value, learning outcomes, and player feedback.
+  </p>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
