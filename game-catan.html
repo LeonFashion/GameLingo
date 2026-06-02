@@ -1,1 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Catan | GameLingo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon"
+  href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+
+  <nav>
+
+    <a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+    <div class="nav-actions">
+
+      <button class="lang-toggle" id="languageButton" onclick="toggleLanguage()">ES</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+    <div class="nav-menu" id="navMenu">
+
+      <a href="games.html" data-en="Games" data-es="Juegos">Games</a>
+      <a href="reviews.html" data-en="Reviews" data-es="Reseñas">Reviews</a>
+      <a href="about.html" data-en="About" data-es="Nosotros">About</a>
+      <a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <span class="badge" data-en="Strategy Game" data-es="Juego de Estrategia">
+      Strategy Game
+    </span>
+
+    <h1>Catan</h1>
+
+    <p data-en="Trade resources, build settlements, expand roads, and compete to become the dominant force on the island."
+       data-es="Intercambia recursos, construye poblados, expande caminos y compite para convertirte en la fuerza dominante de la isla.">
+      Trade resources, build settlements, expand roads, and compete to become the dominant force on the island.
+    </p>
+
+    <div class="stars">★★★★★</div>
+
+    <div class="btn-row">
+
+      <a class="btn"
+         href="#"
+         data-en="Contact Seller"
+         data-es="Contactar Vendedor">Contact Seller</a>
+
+      <a class="btn btn-secondary"
+         href="games.html"
+         data-en="Back to Games"
+         data-es="Volver a Juegos">Back to Games</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Game Overview" data-es="Resumen del Juego">
+    Game Overview
+  </h2>
+
+  <p class="section-intro"
+     data-en="Catan is a modern board game classic where players collect and trade resources to build roads, settlements, and cities."
+     data-es="Catan es un clásico moderno de juegos de mesa donde los jugadores recolectan e intercambian recursos para construir caminos, poblados y ciudades.">
+    Catan is a modern board game classic where players collect and trade resources to build roads, settlements, and cities.
+  </p>
+
+  <div class="gallery">
+
+    <img src="images/catan.jpg" alt="Catan box">
+
+    <img src="images/catan-board.jpg" alt="Catan board">
+
+    <img src="images/catan-components.jpg" alt="Catan components">
+
+    <img src="images/catan-cards.jpg" alt="Catan cards">
+
+    <img src="images/catan-gameplay.jpg" alt="Catan gameplay">
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="Quick Facts" data-es="Datos Rápidos">
+    Quick Facts
+  </h2>
+
+  <div class="facts">
+
+    <div class="fact">
+      <strong data-en="Age" data-es="Edad">Age</strong>
+      <span>10+</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Players" data-es="Jugadores">Players</strong>
+      <span>3–4</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Play Time" data-es="Duración">Play Time</strong>
+      <span>60–90 min</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Category" data-es="Categoría">Category</strong>
+      <span data-en="Strategy" data-es="Estrategia">Strategy</span>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="What Makes It Fun?" data-es="¿Qué lo Hace Divertido?">
+    What Makes It Fun?
+  </h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <i class="fa-solid fa-handshake"></i>
+
+      <h3 data-en="Trading" data-es="Intercambio">Trading</h3>
+
+      <p data-en="Players negotiate resources, make deals, and decide when to cooperate or compete."
+         data-es="Los jugadores negocian recursos, hacen tratos y deciden cuándo cooperar o competir.">
+        Players negotiate resources, make deals, and decide when to cooperate or compete.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-road"></i>
+
+      <h3 data-en="Expansion" data-es="Expansión">Expansion</h3>
+
+      <p data-en="Build roads and settlements to claim space and grow your position on the island."
+         data-es="Construye caminos y poblados para reclamar espacio y fortalecer tu posición en la isla.">
+        Build roads and settlements to claim space and grow your position on the island.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-dice"></i>
+
+      <h3 data-en="Replayability" data-es="Variedad">Replayability</h3>
+
+      <p data-en="The board changes every game, creating fresh strategies and different outcomes."
+         data-es="El tablero cambia en cada partida, creando estrategias nuevas y resultados diferentes.">
+        The board changes every game, creating fresh strategies and different outcomes.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="How to Play" data-es="Cómo se Juega">
+    How to Play
+  </h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+      <h3 data-en="1. Collect Resources" data-es="1. Recolecta Recursos">1. Collect Resources</h3>
+      <p data-en="Use dice rolls and board placement to collect brick, wood, wheat, ore, and sheep."
+         data-es="Usa las tiradas de dados y la posición en el tablero para obtener ladrillo, madera, trigo, mineral y ovejas.">
+        Use dice rolls and board placement to collect brick, wood, wheat, ore, and sheep.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 data-en="2. Build and Trade" data-es="2. Construye e Intercambia">2. Build and Trade</h3>
+      <p data-en="Trade with other players and use resources to build roads, settlements, and cities."
+         data-es="Intercambia con otros jugadores y usa recursos para construir caminos, poblados y ciudades.">
+        Trade with other players and use resources to build roads, settlements, and cities.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 data-en="3. Score Victory Points" data-es="3. Gana Puntos">3. Score Victory Points</h3>
+      <p data-en="Earn points through buildings, achievements, and development cards until someone wins."
+         data-es="Gana puntos con construcciones, logros y cartas de desarrollo hasta que alguien llegue a la victoria.">
+        Earn points through buildings, achievements, and development cards until someone wins.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Player Reviews" data-es="Reseñas de Jugadores">
+    Player Reviews
+  </h2>
+
+  <div class="grid grid-3">
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p data-en="A great balance of strategy, luck, and negotiation. It never feels the same twice."
+         data-es="Gran equilibrio entre estrategia, suerte y negociación. Nunca se siente igual dos veces.">
+        A great balance of strategy, luck, and negotiation. It never feels the same twice.
+      </p>
+      <strong>— Daniel R.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p data-en="Perfect for introducing friends to modern board games without overwhelming them."
+         data-es="Perfecto para introducir a amigos a juegos de mesa modernos sin abrumarlos.">
+        Perfect for introducing friends to modern board games without overwhelming them.
+      </p>
+      <strong>— Melissa T.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <p data-en="Fun, competitive, and easy to teach. Trading makes every game feel social."
+         data-es="Divertido, competitivo y fácil de enseñar. El intercambio hace que cada partida sea social.">
+        Fun, competitive, and easy to teach. Trading makes every game feel social.
+      </p>
+      <strong>— Carlos M.</strong>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <h2 data-en="Interested in this game?" data-es="¿Te interesa este juego?">
+    Interested in this game?
+  </h2>
+
+  <p data-en="Use this product page format to show buyers images, details, reviews, and contact options in one place."
+     data-es="Usa este formato de página para mostrar imágenes, detalles, reseñas y opciones de contacto en un solo lugar.">
+    Use this product page format to show buyers images, details, reviews, and contact options in one place.
+  </p>
+
+  <a class="btn btn-secondary"
+     href="contact.html"
+     data-en="Ask About This Game"
+     data-es="Consultar Sobre Este Juego">Ask About This Game</a>
+
+</section>
+
+<footer>
+
+  <p>GameLingo</p>
+
+  <p data-en="Detailed game pages built for discovery, trust, and easier buying decisions."
+     data-es="Páginas detalladas diseñadas para descubrir, generar confianza y facilitar decisiones de compra.">
+    Detailed game pages built for discovery, trust, and easier buying decisions.
+  </p>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
