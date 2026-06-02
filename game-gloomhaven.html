@@ -1,1 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gloomhaven: Jaws of the Lion | GameLingo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon"
+  href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+  <nav>
+
+    <a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+    <div class="nav-actions">
+
+      <button class="lang-toggle" id="languageButton" onclick="toggleLanguage()">ES</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+    <div class="nav-menu" id="navMenu">
+
+      <a href="games.html" data-en="Games" data-es="Juegos">Games</a>
+      <a href="reviews.html" data-en="Reviews" data-es="Reseñas">Reviews</a>
+      <a href="about.html" data-en="About" data-es="Nosotros">About</a>
+      <a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a>
+
+    </div>
+
+  </nav>
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <span class="badge" data-en="Cooperative Campaign Game" data-es="Juego Cooperativo de Campaña">
+      Cooperative Campaign Game
+    </span>
+
+    <h1>Gloomhaven: Jaws of the Lion</h1>
+
+    <p data-en="A tactical fantasy adventure where players work together, battle enemies, unlock characters, and experience an evolving campaign."
+       data-es="Una aventura fantástica táctica donde los jugadores cooperan, combaten enemigos, desbloquean personajes y viven una campaña en evolución.">
+      A tactical fantasy adventure where players work together, battle enemies, unlock characters, and experience an evolving campaign.
+    </p>
+
+    <div class="stars">★★★★★</div>
+
+    <div class="btn-row">
+
+      <a class="btn" href="#" data-en="Contact Seller" data-es="Contactar Vendedor">Contact Seller</a>
+
+      <a class="btn btn-secondary" href="games.html" data-en="Back to Games" data-es="Volver a Juegos">Back to Games</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Game Overview" data-es="Resumen del Juego">Game Overview</h2>
+
+  <p class="section-intro"
+     data-en="Gloomhaven: Jaws of the Lion is a cooperative fantasy campaign game with tactical card-driven combat, character progression, and scenario-based storytelling."
+     data-es="Gloomhaven: Jaws of the Lion es un juego cooperativo de campaña fantástica con combate táctico basado en cartas, progresión de personajes e historia por escenarios.">
+    Gloomhaven: Jaws of the Lion is a cooperative fantasy campaign game with tactical card-driven combat, character progression, and scenario-based storytelling.
+  </p>
+
+  <div class="gallery">
+
+    <img src="images/gloomhaven.jpg" alt="Gloomhaven Jaws of the Lion box">
+    <img src="images/gloomhaven-map.jpg" alt="Gloomhaven scenario map">
+    <img src="images/gloomhaven-cards.jpg" alt="Gloomhaven cards">
+    <img src="images/gloomhaven-miniatures.jpg" alt="Gloomhaven miniatures">
+    <img src="images/gloomhaven-gameplay.jpg" alt="Gloomhaven gameplay">
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="Quick Facts" data-es="Datos Rápidos">Quick Facts</h2>
+
+  <div class="facts">
+
+    <div class="fact">
+      <strong data-en="Age" data-es="Edad">Age</strong>
+      <span>14+</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Players" data-es="Jugadores">Players</strong>
+      <span>1–4</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Play Time" data-es="Duración">Play Time</strong>
+      <span>30–120 min</span>
+    </div>
+
+    <div class="fact">
+      <strong data-en="Category" data-es="Categoría">Category</strong>
+      <span data-en="Adventure / Campaign" data-es="Aventura / Campaña">Adventure / Campaign</span>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="What Makes It Fun?" data-es="¿Qué lo Hace Divertido?">
+    What Makes It Fun?
+  </h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <i class="fa-solid fa-people-group"></i>
+
+      <h3 data-en="Cooperative Play" data-es="Juego Cooperativo">Cooperative Play</h3>
+
+      <p data-en="Players work together to defeat enemies, complete scenarios, and survive difficult choices."
+         data-es="Los jugadores trabajan juntos para derrotar enemigos, completar escenarios y sobrevivir decisiones difíciles.">
+        Players work together to defeat enemies, complete scenarios, and survive difficult choices.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-dragon"></i>
+
+      <h3 data-en="Fantasy Adventure" data-es="Aventura Fantástica">Fantasy Adventure</h3>
+
+      <p data-en="The game creates a rich world full of monsters, missions, characters, and evolving challenges."
+         data-es="El juego crea un mundo lleno de monstruos, misiones, personajes y desafíos en evolución.">
+        The game creates a rich world full of monsters, missions, characters, and evolving challenges.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-layer-group"></i>
+
+      <h3 data-en="Tactical Decisions" data-es="Decisiones Tácticas">Tactical Decisions</h3>
+
+      <p data-en="Card choices, movement, timing, and teamwork all matter during combat."
+         data-es="Las cartas, el movimiento, el tiempo y el trabajo en equipo importan durante el combate.">
+        Card choices, movement, timing, and teamwork all matter during combat.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="How to Play" data-es="Cómo se Juega">How to Play</h2>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <h3 data-en="1. Choose a Character" data-es="1. Elige un Personaje">1. Choose a Character</h3>
+
+      <p data-en="Each player controls a unique hero with special cards, abilities, and combat style."
+         data-es="Cada jugador controla un héroe único con cartas, habilidades y estilo de combate propio.">
+        Each player controls a unique hero with special cards, abilities, and combat style.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h3 data-en="2. Complete Scenarios" data-es="2. Completa Escenarios">2. Complete Scenarios</h3>
+
+      <p data-en="Players enter missions, fight enemies, manage resources, and work toward scenario goals."
+         data-es="Los jugadores entran a misiones, combaten enemigos, administran recursos y cumplen objetivos.">
+        Players enter missions, fight enemies, manage resources, and work toward scenario goals.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h3 data-en="3. Grow Over Time" data-es="3. Progresa con el Tiempo">3. Grow Over Time</h3>
+
+      <p data-en="Characters improve, the campaign develops, and each session builds on previous choices."
+         data-es="Los personajes mejoran, la campaña avanza y cada sesión continúa decisiones anteriores.">
+        Characters improve, the campaign develops, and each session builds on previous choices.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Who Is This Game For?" data-es="¿Para Quién es Este Juego?">
+    Who Is This Game For?
+  </h2>
+
+  <div class="grid">
+
+    <div class="card">
+
+      <i class="fa-solid fa-chess-knight"></i>
+
+      <h3 data-en="Strategy Fans" data-es="Fans de Estrategia">Strategy Fans</h3>
+
+      <p data-en="Ideal for players who enjoy planning moves, managing actions, and solving tactical puzzles."
+         data-es="Ideal para jugadores que disfrutan planificar movimientos, administrar acciones y resolver desafíos tácticos.">
+        Ideal for players who enjoy planning moves, managing actions, and solving tactical puzzles.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-book"></i>
+
+      <h3 data-en="Story Lovers" data-es="Amantes de Historias">Story Lovers</h3>
+
+      <p data-en="A strong pick for players who enjoy campaign progression and narrative-driven sessions."
+         data-es="Una gran opción para jugadores que disfrutan progresión de campaña y sesiones con narrativa.">
+        A strong pick for players who enjoy campaign progression and narrative-driven sessions.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-users"></i>
+
+      <h3 data-en="Cooperative Groups" data-es="Grupos Cooperativos">Cooperative Groups</h3>
+
+      <p data-en="Great for friends who prefer working together instead of competing directly."
+         data-es="Excelente para amigos que prefieren trabajar juntos en lugar de competir directamente.">
+        Great for friends who prefer working together instead of competing directly.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-dice-d20"></i>
+
+      <h3 data-en="Fantasy Gamers" data-es="Jugadores de Fantasía">Fantasy Gamers</h3>
+
+      <p data-en="A good fit for players who enjoy fantasy worlds, monsters, heroes, and tactical battles."
+         data-es="Buena opción para quienes disfrutan mundos de fantasía, monstruos, héroes y batallas tácticas.">
+        A good fit for players who enjoy fantasy worlds, monsters, heroes, and tactical battles.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="Player Reviews" data-es="Reseñas de Jugadores">Player Reviews</h2>
+
+  <div class="grid grid-3">
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p data-en="A deep tactical experience that feels rewarding every time your team pulls off a strong combo."
+         data-es="Una experiencia táctica profunda que se siente gratificante cada vez que el equipo logra una buena combinación.">
+        A deep tactical experience that feels rewarding every time your team pulls off a strong combo.
+      </p>
+      <strong>— Nathan B.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p data-en="Great entry point into Gloomhaven. The tutorial structure makes the system easier to learn."
+         data-es="Gran punto de entrada a Gloomhaven. La estructura tutorial hace que el sistema sea más fácil de aprender.">
+        Great entry point into Gloomhaven. The tutorial structure makes the system easier to learn.
+      </p>
+      <strong>— Valeria S.</strong>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <p data-en="Challenging, immersive, and perfect for players who want a long-term cooperative game."
+         data-es="Desafiante, inmersivo y perfecto para jugadores que quieren un juego cooperativo a largo plazo.">
+        Challenging, immersive, and perfect for players who want a long-term cooperative game.
+      </p>
+      <strong>— Miguel A.</strong>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <h2 data-en="Looking for deeper strategy games?" data-es="¿Buscas juegos de estrategia más profundos?">
+    Looking for deeper strategy games?
+  </h2>
+
+  <p data-en="Detailed product pages help players understand complexity, gameplay style, and whether a game fits their group."
+     data-es="Las páginas detalladas ayudan a entender la complejidad, estilo de juego y si el juego encaja con su grupo.">
+    Detailed product pages help players understand complexity, gameplay style, and whether a game fits their group.
+  </p>
+
+  <a class="btn btn-secondary"
+     href="contact.html"
+     data-en="Ask About This Game"
+     data-es="Consultar Sobre Este Juego">Ask About This Game</a>
+
+</section>
+
+<footer>
+
+  <p>GameLingo</p>
+
+  <p data-en="Campaign and strategy game pages designed to explain depth, style, and player experience."
+     data-es="Páginas para juegos de campaña y estrategia diseñadas para explicar profundidad, estilo y experiencia de juego.">
+    Campaign and strategy game pages designed to explain depth, style, and player experience.
+  </p>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
