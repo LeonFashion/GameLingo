@@ -21,6 +21,13 @@ body {
   background: var(--cream);
   color: var(--dark);
 }
+a {
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
 
 header {
   background: var(--navy);
@@ -109,15 +116,25 @@ nav {
 }
 
 .hero {
+
   min-height: 78vh;
+
   background:
-    linear-gradient(135deg, rgba(25,42,86,0.90), rgba(123,44,191,0.75)),
-    url("images/hero-boardgames.jpg");
+    linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url('images/hero-boardgames.jpg');
+
   background-size: cover;
   background-position: center;
-  color: var(--white);
+  background-repeat: no-repeat;
+
+  color: white;
+
   display: flex;
   align-items: center;
+
   padding: 90px 8%;
 }
 
@@ -211,7 +228,7 @@ nav {
   background: var(--white);
   border-radius: 24px;
   padding: 30px 24px;
-  box-shadow: 0 10px 26px rgba(0,0,0,0.10);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.12);
   border-bottom: 7px solid var(--teal);
   text-align: center;
 }
@@ -247,10 +264,38 @@ nav {
 }
 
 .game-card {
+
   padding: 0;
+
   overflow: hidden;
+
   text-align: left;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  transition: 0.3s ease;
+
 }
+.game-card:hover {
+
+  transform: translateY(-8px);
+
+}
+
+.game-card:visited {
+
+  color: inherit;
+
+}
+
+.game-card:hover h3 {
+
+  color: var(--navy);
+
+}
+
 
 .game-card img {
   width: 100%;
@@ -258,6 +303,13 @@ nav {
   object-fit: cover;
   display: block;
   background: var(--soft-gray);
+  transition: 0.4s ease;
+}
+
+.game-card:hover img {
+
+  transform: scale(1.05);
+
 }
 
 .game-card-content {
@@ -278,7 +330,7 @@ nav {
 .stars {
   color: #f7b500;
   font-size: 20px;
-  margin: 8px 0;
+  margin: 10px 0;
 }
 
 .facts {
