@@ -1,1 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GameLingo | Board Games & Learning Games</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon"
+  href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎲</text></svg>'>
+
+</head>
+
+<body>
+
+<header>
+
+  <nav>
+
+    <a href="index.html" class="logo">Game<span>Lingo</span></a>
+
+    <div class="nav-actions">
+
+      <button class="lang-toggle" id="languageButton" onclick="toggleLanguage()">ES</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+    <div class="nav-menu" id="navMenu">
+
+      <a href="games.html"
+         data-en="Games"
+         data-es="Juegos">Games</a>
+
+      <a href="reviews.html"
+         data-en="Reviews"
+         data-es="Reseñas">Reviews</a>
+
+      <a href="about.html"
+         data-en="About"
+         data-es="Nosotros">About</a>
+
+      <a href="contact.html"
+         data-en="Contact"
+         data-es="Contacto">Contact</a>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <h1 data-en="Board games that teach, connect, and entertain."
+        data-es="Juegos de mesa que enseñan, conectan y entretienen.">
+      Board games that teach, connect, and entertain.
+    </h1>
+
+    <p data-en="Discover family, strategy, classic, and learning games in one colorful catalog designed to help players find their next favorite game."
+       data-es="Descubre juegos familiares, de estrategia, clásicos y educativos en un catálogo colorido diseñado para ayudarte a encontrar tu próximo juego favorito.">
+      Discover family, strategy, classic, and learning games in one colorful catalog designed to help players find their next favorite game.
+    </p>
+
+    <div class="btn-row">
+
+      <a class="btn"
+         href="games.html"
+         data-en="Explore Games"
+         data-es="Explorar Juegos">Explore Games</a>
+
+      <a class="btn btn-secondary"
+         href="reviews.html"
+         data-en="Read Reviews"
+         data-es="Ver Reseñas">Read Reviews</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Featured Games"
+      data-es="Juegos Destacados">
+    Featured Games
+  </h2>
+
+  <p class="section-intro"
+     data-en="Start with four well-known games and see how each product page can showcase images, ratings, details, and reviews."
+     data-es="Comienza con cuatro juegos conocidos y mira cómo cada página puede mostrar imágenes, calificaciones, detalles y reseñas.">
+    Start with four well-known games and see how each product page can showcase images, ratings, details, and reviews.
+  </p>
+
+  <div class="grid">
+
+    <a href="game-catan.html" class="card game-card">
+
+      <img src="images/catan.jpg" alt="Catan board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Strategy"
+              data-es="Estrategia">Strategy</span>
+
+        <h3>Catan</h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p data-en="Trade, build, and settle the island in one of the most iconic modern board games."
+           data-es="Intercambia, construye y coloniza la isla en uno de los juegos de mesa modernos más icónicos.">
+          Trade, build, and settle the island in one of the most iconic modern board games.
+        </p>
+
+      </div>
+
+    </a>
+
+    <a href="game-gloomhaven.html" class="card game-card">
+
+      <img src="images/gloomhaven.jpg" alt="Gloomhaven Jaws of the Lion board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Adventure"
+              data-es="Aventura">Adventure</span>
+
+        <h3>Gloomhaven: Jaws of the Lion</h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p data-en="A tactical fantasy campaign game filled with characters, combat, and cooperative decisions."
+           data-es="Un juego de campaña fantástica con tácticas, personajes, combate y decisiones cooperativas.">
+          A tactical fantasy campaign game filled with characters, combat, and cooperative decisions.
+        </p>
+
+      </div>
+
+    </a>
+
+    <a href="game-monopoly.html" class="card game-card">
+
+      <img src="images/monopoly.jpg" alt="Monopoly board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Classic"
+              data-es="Clásico">Classic</span>
+
+        <h3>Monopoly</h3>
+
+        <div class="stars">★★★★☆</div>
+
+        <p data-en="Buy, trade, and build your way across the board in a classic family game."
+           data-es="Compra, negocia y construye tu camino por el tablero en un clásico juego familiar.">
+          Buy, trade, and build your way across the board in a classic family game.
+        </p>
+
+      </div>
+
+    </a>
+
+    <a href="game-scrabble.html" class="card game-card">
+
+      <img src="images/scrabble.jpg" alt="Scrabble board game">
+
+      <div class="game-card-content">
+
+        <span class="badge"
+              data-en="Word Game"
+              data-es="Palabras">Word Game</span>
+
+        <h3>Scrabble</h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p data-en="Build words, score points, and sharpen vocabulary in a timeless language game."
+           data-es="Forma palabras, suma puntos y mejora tu vocabulario en un juego de lenguaje clásico.">
+          Build words, score points, and sharpen vocabulary in a timeless language game.
+        </p>
+
+      </div>
+
+    </a>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2 data-en="Find the Right Game Faster"
+      data-es="Encuentra el Juego Ideal Más Rápido">
+    Find the Right Game Faster
+  </h2>
+
+  <p class="section-intro"
+     data-en="GameLingo is built to make browsing easier, with clear categories, quick facts, ratings, and product pages."
+     data-es="GameLingo está diseñado para facilitar la búsqueda con categorías claras, datos rápidos, calificaciones y páginas individuales para cada producto.">
+    GameLingo is built to make browsing easier, with clear categories, quick facts, ratings, and product pages.
+  </p>
+
+  <div class="grid grid-4">
+
+    <div class="card">
+
+      <i class="fa-solid fa-users"></i>
+
+      <h3 data-en="Family Games"
+          data-es="Juegos Familiares">Family Games</h3>
+
+      <p data-en="Easy-to-enjoy games for gatherings, casual nights, and all ages."
+         data-es="Juegos fáciles de disfrutar para reuniones, noches casuales y diferentes edades.">
+        Easy-to-enjoy games for gatherings, casual nights, and all ages.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-chess-board"></i>
+
+      <h3 data-en="Strategy Games"
+          data-es="Juegos de Estrategia">Strategy Games</h3>
+
+      <p data-en="Games built around planning, choices, tactics, and long-term decisions."
+         data-es="Juegos basados en planificación, decisiones, tácticas y estrategia a largo plazo.">
+        Games built around planning, choices, tactics, and long-term decisions.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-book-open"></i>
+
+      <h3 data-en="Learning Games"
+          data-es="Juegos Educativos">Learning Games</h3>
+
+      <p data-en="Games that support vocabulary, math, language, creativity, and classroom learning."
+         data-es="Juegos que apoyan vocabulario, matemáticas, idiomas, creatividad y aprendizaje en clase.">
+        Games that support vocabulary, math, language, creativity, and classroom learning.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-star"></i>
+
+      <h3 data-en="Top Rated"
+          data-es="Mejor Calificados">Top Rated</h3>
+
+      <p data-en="Ratings and reviews help players choose with more confidence."
+         data-es="Las calificaciones y reseñas ayudan a elegir con más confianza.">
+        Ratings and reviews help players choose with more confidence.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section white">
+
+  <h2 data-en="Why Product Pages Matter"
+      data-es="Por Qué Importan las Páginas de Producto">
+    Why Product Pages Matter
+  </h2>
+
+  <p class="section-intro"
+     data-en="A good game page should answer every question a buyer has before they decide to purchase or contact the seller."
+     data-es="Una buena página de juego debe responder las preguntas principales antes de que alguien decida comprar o contactar al vendedor.">
+    A good game page should answer every question a buyer has before they decide to purchase or contact the seller.
+  </p>
+
+  <div class="grid grid-3">
+
+    <div class="card">
+
+      <i class="fa-solid fa-camera"></i>
+
+      <h3 data-en="See the Game"
+          data-es="Ver el Juego">See the Game</h3>
+
+      <p data-en="Show the box, components, cards, board, and gameplay examples."
+         data-es="Muestra la caja, componentes, cartas, tablero y ejemplos de juego.">
+        Show the box, components, cards, board, and gameplay examples.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-circle-info"></i>
+
+      <h3 data-en="Understand the Details"
+          data-es="Entender los Detalles">Understand the Details</h3>
+
+      <p data-en="Display age, players, duration, category, language, creator, and publisher."
+         data-es="Muestra edad, jugadores, duración, categoría, idioma, creador y editorial.">
+        Display age, players, duration, category, language, creator, and publisher.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <i class="fa-solid fa-comments"></i>
+
+      <h3 data-en="Read Real Opinions"
+          data-es="Leer Opiniones">Read Real Opinions</h3>
+
+      <p data-en="Reviews and star ratings build trust and help shoppers compare options."
+         data-es="Las reseñas y calificaciones generan confianza y ayudan a comparar opciones.">
+        Reviews and star ratings build trust and help shoppers compare options.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <h2 data-en="Ready to discover your next game?"
+      data-es="¿Listo para descubrir tu próximo juego?">
+    Ready to discover your next game?
+  </h2>
+
+  <p data-en="Browse the catalog and explore detailed pages with ratings, photos, gameplay information, and more."
+     data-es="Explora el catálogo y revisa páginas detalladas con calificaciones, fotos, información de juego y más.">
+    Browse the catalog and explore detailed pages with ratings, photos, gameplay information, and more.
+  </p>
+
+  <a class="btn btn-secondary"
+     href="games.html"
+     data-en="View Game Catalog"
+     data-es="Ver Catálogo de Juegos">View Game Catalog</a>
+
+</section>
+
+<footer>
+
+  <p>GameLingo</p>
+
+  <p data-en="Board games, learning games, and product pages built for discovery."
+     data-es="Juegos de mesa, juegos educativos y páginas de producto diseñadas para descubrir.">
+    Board games, learning games, and product pages built for discovery.
+  </p>
+
+  <div class="footer-socials">
+
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+  </div>
+
+</footer>
+
+<a class="floating-whatsapp" href="#">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
